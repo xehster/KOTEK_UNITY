@@ -9,7 +9,7 @@ public class Openable : Interactable
     public Sprite closed;
 
     private SpriteRenderer sr;
-    private bool isOpen;
+    public bool isOpen;
 
     public override void Interact()
     {

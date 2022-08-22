@@ -43,7 +43,6 @@
             <e p="ExampleInputManager.cs" t="Include" />
           </e>
         </e>
-        <e p="NPC.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Bullet.cs" t="Include" />
           <e p="CameraMovement.cs" t="Include" />
@@ -53,6 +52,7 @@
           <e p="HealthCheck.cs" t="Include" />
           <e p="Interactable.cs" t="Include" />
           <e p="ItemCollector.cs" t="Include" />
+          <e p="NPC.cs" t="Include" />
           <e p="Openable.cs" t="Include" />
           <e p="PlayerLife.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
