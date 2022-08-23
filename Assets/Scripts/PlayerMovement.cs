@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
@@ -14,13 +15,17 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer sprite;
     private float timer;
     private float shootTime = 0.05f;
+    private float meleeTime = 0.05f;
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private float jumpForce = 12f;
     [SerializeField] private LayerMask jumpableGround;
     [SerializeField] private GameObject interactIcon;
-    private enum MovementState { idle, running, jumping, falling, shooting }
+    [SerializeField] private Weapon weapon;
+    private enum MovementState { idle, running, jumping, falling, shooting, attack }
     private Vector2 boxSize = new Vector2(0.1f, 1f);
-    
+    public Transform attackPoint;
+    public float attackRange = 3f;
+    public LayerMask enemyLayers;
     
 
     private bool facingRight = true;
@@ -66,16 +71,20 @@ public class PlayerMovement : MonoBehaviour
             isAnimationStarting = false;
         }
     }
+
+
     
 
     private void UpdateAnimation()
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            state = MovementState.shooting;
-            anim.SetInteger("state", (int)state);
-            isAnimationStarting = true;
-            timer = shootTime;
+            PlayerShoot();
+        }
+        
+        if (Input.GetButtonDown("Fire3"))
+        {
+            PlayerAttack();
         }
 
         if (isAnimationStarting)
@@ -83,6 +92,52 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
         
+        PlayerMove();
+    }
+    
+    private void SetMovementState(MovementState newState)
+    {
+        state = newState;
+        anim.SetInteger("state", (int)state);
+    }
+
+    private void PlayerShoot()
+    {
+        SetMovementState(MovementState.shooting);
+        weapon.Shoot();
+        isAnimationStarting = true;
+        timer = shootTime;
+    }
+
+    private void PlayerMelee()
+    {
+        SetMovementState(MovementState.attack);
+        isAnimationStarting = true;
+        timer = meleeTime;
+    }
+    
+    private void PlayerAttack()
+    {
+        //anim
+        PlayerMelee();
+        //detect enemies in range
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+        //damage
+        foreach(Collider2D enemy in hitEnemies)
+        {
+            enemy.GetComponent<EnemyLife>().DecreaseHealth();
+        }
+    }
+
+    private void OnDrawGizmos()
+    {
+        if (attackPoint == null)
+            return;
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
+
+    private void PlayerMove()
+    {
         if (dirX > 0f)
         {
             state = MovementState.running;
@@ -114,7 +169,7 @@ public class PlayerMovement : MonoBehaviour
         {
             state = MovementState.falling;
         }
-
+        
         anim.SetInteger("state", (int)state);
     }
 

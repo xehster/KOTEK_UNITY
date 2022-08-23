@@ -23,7 +23,7 @@ public class EnemyLife : MonoBehaviour
         }
     }
 
-    private void DecreaseHealth()
+    public void DecreaseHealth()
     {
         enemyHealthPoints = enemyHealthPoints - 1;
         if (enemyHealthPoints < 1)
