@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using DialogueEditor;
 
@@ -33,5 +34,6 @@ public class NPC : MonoBehaviour
             playerInRange = false;
         }
     }
+    
 }
     

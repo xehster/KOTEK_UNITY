@@ -4,6 +4,9 @@
     <list default="true" id="dc55d359-e0f3-4f29-a3ca-8f1e4c3f4754" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KOTEK/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KOTEK/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KOTEK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KOTEK/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level0.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level0.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Finish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Finish.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPC.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +47,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthCheck.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerLife.cs" />
         <option value="$PROJECT_DIR$/Assets/Finish.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Finish.cs" />
         <option value="$PROJECT_DIR$/Assets/StartMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/EndMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveBackground.cs" />
@@ -54,6 +56,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/NPC.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Openable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPC.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Finish.cs" />
       </list>
     </option>
   </component>
@@ -124,6 +128,7 @@
       <workItem from="1661001451430" duration="3535000" />
       <workItem from="1661084591806" duration="1244000" />
       <workItem from="1661152968609" duration="1208000" />
+      <workItem from="1661243218895" duration="1546000" />
     </task>
     <servers />
   </component>

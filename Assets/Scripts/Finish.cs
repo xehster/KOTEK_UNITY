@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Finish : MonoBehaviour
+public class Finish : Interactable
 
 {
     private AudioSource finishSound;
@@ -14,15 +14,11 @@ public class Finish : MonoBehaviour
         finishSound = GetComponent<AudioSource>();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public override void Interact()
     {
-        if (collision.gameObject.name == "KOTEK" && !levelCompleted)
-        {
-            finishSound.Play();
+        finishSound.Play();
             levelCompleted = true;
             Invoke("EndLevel", 1f);
-        }
-        
     }
 
     private void EndLevel()
