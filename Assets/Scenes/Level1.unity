@@ -5169,7 +5169,7 @@ PrefabInstance:
       objectReference: {fileID: 2119792014}
     - target: {fileID: 1834336267818595903, guid: 174c7d22bacba394c83a199e5274bac2, type: 3}
       propertyPath: attackRange
-      value: 0.5
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 1834336267818595903, guid: 174c7d22bacba394c83a199e5274bac2, type: 3}
       propertyPath: enemyLayers.m_Bits
