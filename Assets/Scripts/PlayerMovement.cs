@@ -69,6 +69,7 @@ public class PlayerMovement : MonoBehaviour
         if (timer <= 0)
         {
             isAnimationStarting = false;
+            anim.SetBool("isAttack", false);
         }
     }
 
@@ -104,6 +105,8 @@ public class PlayerMovement : MonoBehaviour
     private void PlayerShoot()
     {
         SetMovementState(MovementState.shooting);
+        anim.Play("Player_Shoot");
+        anim.SetBool("isAttack", true );
         weapon.Shoot();
         isAnimationStarting = true;
         timer = shootTime;

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5455188566183802939}
   - component: {fileID: 5455188566183802940}
   - component: {fileID: 8090561122766200265}
-  - component: {fileID: 9050007188376754996}
+  - component: {fileID: 845577114}
   m_Layer: 7
   m_Name: CatShroom
   m_TagString: Enemy
@@ -120,9 +120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eced785bf244a7543ad7a94466fd2764, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoints:
-  - {fileID: 0}
-  - {fileID: 0}
+  waypoints: []
   speed: 2
 --- !u!114 &8090561122766200265
 MonoBehaviour:
@@ -138,8 +136,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyHealthPoints: 3
   drop: {fileID: 6556539500330326099, guid: b658c030d63955b448c11df5191afe93, type: 3}
---- !u!58 &9050007188376754996
-CircleCollider2D:
+  blood: {fileID: 0}
+  explosion: {fileID: 0}
+  collider: {fileID: 845577114}
+--- !u!61 &845577114
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -151,6 +152,16 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.01827079, y: 0}
+  m_Offset: {x: 0, y: -0.13574028}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 2}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Radius: 0.37210482
+  m_Size: {x: 0.8190155, y: 1.072443}
+  m_EdgeRadius: 0
