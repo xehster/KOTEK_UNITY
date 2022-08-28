@@ -45,6 +45,9 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Bullet.cs" t="Include" />
+          <e p="Camera" t="Include">
+            <e p="CameraController.cs" t="Include" />
+          </e>
           <e p="CameraMovement.cs" t="Include" />
           <e p="EndMenu.cs" t="Include" />
           <e p="EnemyLife.cs" t="Include" />
