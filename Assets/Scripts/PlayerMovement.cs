@@ -21,12 +21,15 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask jumpableGround;
     [SerializeField] private GameObject interactIcon;
     [SerializeField] private Weapon weapon;
+    [SerializeField] private UI_Inventory uiInventory;
     private enum MovementState { idle, running, jumping, falling, shooting, attack }
     private Vector2 boxSize = new Vector2(0.1f, 1f);
     public Transform attackPoint;
     public float attackRange = 3f;
     public LayerMask enemyLayers;
+    private Inventory inventory;
     
+
 
     private bool facingRight = true;
     [SerializeField] private AudioSource jumpSoundEffect;
@@ -43,6 +46,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // Update is called once per frame
+    
     void Update()
     {
         dirX = Input.GetAxis("Horizontal");
@@ -61,6 +65,12 @@ public class PlayerMovement : MonoBehaviour
         {
             CheckInteraction();
         }
+    }
+
+
+    private void Awake()
+    {
+        inventory = new Inventory();
     }
 
     private void ShootAnimationTimer()

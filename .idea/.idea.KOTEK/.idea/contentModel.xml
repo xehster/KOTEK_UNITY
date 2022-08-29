@@ -55,6 +55,7 @@
           <e p="HealthCheck.cs" t="Include" />
           <e p="Interactable.cs" t="Include" />
           <e p="Inventory.cs" t="Include" />
+          <e p="Item.cs" t="Include" />
           <e p="ItemCollector.cs" t="Include" />
           <e p="NPC.cs" t="Include" />
           <e p="Openable.cs" t="Include" />
@@ -62,6 +63,7 @@
           <e p="PlayerMovement.cs" t="Include" />
           <e p="StartMenu.cs" t="Include" />
           <e p="StickyPlatform.cs" t="Include" />
+          <e p="UI_Inventory.cs" t="Include" />
           <e p="WaypointFollower.cs" t="Include" />
           <e p="Weapon.cs" t="Include" />
         </e>
