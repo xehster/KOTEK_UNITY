@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -11,10 +10,6 @@ public class Inventory
     public Inventory()
     {
         itemList = new List<Item>();
-        AddItem(new Item { itemType = Item.ItemType.Catfood, amount = 2});
-        AddItem(new Item { itemType = Item.ItemType.Pie, amount = 1});
-        AddItem(new Item { itemType = Item.ItemType.Pie, amount = 1});
-        AddItem(new Item { itemType = Item.ItemType.Tea, amount = 1});
         Debug.Log(itemList.Count);
     }
 
