@@ -71,6 +71,20 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         inventory = new Inventory();
+        uiInventory.SetInventory(inventory);
+    }
+
+
+    private void OnTriggerEnter2D(Collider2D collider)
+    {
+        ItemWorld itemWorld = collider.GetComponent<ItemWorld>();
+        if (itemWorld != null)
+        {
+            //touching item
+            inventory.AddItem(itemWorld.GetItem());
+            itemWorld.DestroySelf();
+            uiInventory.SetInventory(inventory);
+        }
     }
 
     private void ShootAnimationTimer()
