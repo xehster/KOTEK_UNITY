@@ -6,7 +6,7 @@ public class PlayerLife : MonoBehaviour
 {
     private const int trapDamage = 1;
     private const int enemyDamage = 1;
-    private const int smallHeart = 1;
+    public const int smallHeart = 1;
     private int maxHealth;
     [SerializeField] int kotekHealthPoints;
     [SerializeField] private HealthCheck healthCheck;
@@ -58,7 +58,7 @@ public class PlayerLife : MonoBehaviour
         } 
     }
 
-    private void IncreaseHealth(int health)
+    public void IncreaseHealth(int health)
     {
         if (health < maxHealth)
         {
@@ -71,7 +71,7 @@ public class PlayerLife : MonoBehaviour
         }
     }
 
-    private void DecreaseHealth(int damage)
+    public void DecreaseHealth(int damage)
     {
         if (kotekHealthPoints > 0)
         {

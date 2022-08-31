@@ -6,6 +6,16 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    private const int nonJumpOffLayer = 8;
+    public Transform attackPoint;
+    public float attackRange = 3f;
+    [SerializeField] private float moveSpeed = 7f;
+    [SerializeField] private float jumpForce = 12f;
+    [SerializeField] private LayerMask jumpableGround;
+    [SerializeField] private GameObject interactIcon;
+    [SerializeField] private Weapon weapon;
+    [SerializeField] private UI_Inventory uiInventory;
+    [SerializeField] private AudioSource jumpSoundEffect;
     private MovementState state;
     private bool isAnimationStarting;
     private Rigidbody2D rb;
@@ -16,23 +26,15 @@ public class PlayerMovement : MonoBehaviour
     private float timer;
     private float shootTime = 0.05f;
     private float meleeTime = 0.05f;
-    [SerializeField] private float moveSpeed = 7f;
-    [SerializeField] private float jumpForce = 12f;
-    [SerializeField] private LayerMask jumpableGround;
-    [SerializeField] private GameObject interactIcon;
-    [SerializeField] private Weapon weapon;
-    [SerializeField] private UI_Inventory uiInventory;
+    private const float axisDeadZone = 0.2f;
     private enum MovementState { idle, running, jumping, falling, shooting, attack }
     private Vector2 boxSize = new Vector2(0.1f, 1f);
-    public Transform attackPoint;
-    public float attackRange = 3f;
     public LayerMask enemyLayers;
     private Inventory inventory;
-    
-
-
+    private Collision2D currentCollision;
+    private bool jumpOffCoroutineIsRunning;
     private bool facingRight = true;
-    [SerializeField] private AudioSource jumpSoundEffect;
+
         
     
     // Start is called before the first frame update
@@ -49,22 +51,61 @@ public class PlayerMovement : MonoBehaviour
     
     void Update()
     {
-        dirX = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
+        Movement();
         
         if (Input.GetButtonDown("Jump") && IsOnGround())
         {
-            jumpSoundEffect.Play();
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            Jump();
+        }
+
+        if (Input.GetAxis("Vertical") < -axisDeadZone)
+        {
+            JumpOff();
+        }
+        
+        if (Input.GetKeyUp(KeyCode.E))
+        {
+            CheckInteraction();
         }
 
         ShootAnimationTimer();
         UpdateAnimation();
 
-        if (Input.GetKeyUp(KeyCode.E))
+
+    }
+
+    private void Movement()
+    {
+        dirX = Input.GetAxis("Horizontal");
+        rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
+    }
+
+    private void Jump()
+    {
+        jumpSoundEffect.Play();
+        rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+    }
+
+    private void JumpOff()
+    {
+        if (currentCollision == null) return;
+        if (!jumpOffCoroutineIsRunning && currentCollision.gameObject.layer != nonJumpOffLayer)
         {
-            CheckInteraction();
+            Debug.Log("Jump Off");
+            StartCoroutine(JumpOffWithTimer(currentCollision.collider));
         }
+    }
+
+
+
+    private IEnumerator JumpOffWithTimer(Collider2D collider)
+    {
+        jumpOffCoroutineIsRunning = true;
+        Physics2D.IgnoreCollision(collider, coll, true);
+        yield return new WaitForSeconds(0.5f);
+        Physics2D.IgnoreCollision(collider, coll, false);
+        currentCollision = null;
+        jumpOffCoroutineIsRunning = false;
     }
 
 
@@ -124,6 +165,16 @@ public class PlayerMovement : MonoBehaviour
     {
         state = newState;
         anim.SetInteger("state", (int)state);
+    }
+    
+    private bool IsOnGround()
+    {
+        return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        currentCollision = other;
     }
 
     private void PlayerShoot()
@@ -199,12 +250,7 @@ public class PlayerMovement : MonoBehaviour
         
         anim.SetInteger("state", (int)state);
     }
-
-    private bool IsOnGround()
-    {
-        return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
-    }
-
+    
     public void OpenInteractableIcon()
     {
         interactIcon.SetActive(true);

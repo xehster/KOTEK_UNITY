@@ -10,6 +10,7 @@ TagManager:
   - Projectile
   - HP
   - EndLevelDoor
+  - LowestGround
   layers:
   - Default
   - TransparentFX
@@ -19,8 +20,8 @@ TagManager:
   - UI
   - Ground
   - Enemies
-  - 
-  - 
+  - LowestGround
+  - Player
   - 
   - 
   - 

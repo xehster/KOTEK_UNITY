@@ -26,6 +26,20 @@ public class Inventory
         }
     }
 
+    public void UseItem(Item item)
+    {
+        var existedItem = itemList.FirstOrDefault(x => x.itemType == item.itemType);
+        if (existedItem != null)
+        {
+            existedItem.amount -= 1;
+            
+            if (existedItem.amount <= 0)
+            {
+                itemList.Remove(existedItem);
+            }
+        }
+    }
+
     public List<Item> GetItemList()
     {
         return itemList;
