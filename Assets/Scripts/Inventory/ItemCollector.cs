@@ -8,12 +8,11 @@ public class ItemCollector : MonoBehaviour
 {
    private int kittensouls = 0;
    [SerializeField] private Text kittenSoulsText;
-   [SerializeField] private AudioSource collectionSoundEffect;
    private void OnTriggerEnter2D(Collider2D collision)
    {
       if (collision.gameObject.CompareTag(("KittenSoul")))
       {
-         collectionSoundEffect.Play();
+         PlayerManager.Instance.PlayerSounds.PlayCollectSound();
          Destroy(collision.gameObject);
          kittensouls++;
          kittenSoulsText.text = "" + kittensouls;

@@ -75,6 +75,9 @@
             <e p="PlayerMovement.cs" t="Include" />
             <e p="Weapon.cs" t="Include" />
           </e>
+          <e p="Sounds" t="Include">
+            <e p="PlayerSounds.cs" t="Include" />
+          </e>
           <e p="StartMenu.cs" t="Include" />
           <e p="StickyPlatform.cs" t="Include" />
           <e p="WaypointFollower.cs" t="Include" />

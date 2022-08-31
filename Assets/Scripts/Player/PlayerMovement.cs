@@ -15,7 +15,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private GameObject interactIcon;
     [SerializeField] private Weapon weapon;
     [SerializeField] private UI_Inventory uiInventory;
-    [SerializeField] private AudioSource jumpSoundEffect;
     private MovementState state;
     private bool isAnimationStarting;
     private Rigidbody2D rb;
@@ -78,11 +77,19 @@ public class PlayerMovement : MonoBehaviour
     {
         dirX = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
+        if (IsOnGround() && rb.velocity.magnitude > 0)
+        {
+            PlayerManager.Instance.PlayerSounds.Walking(true, rb.velocity.magnitude);
+        }
+        else
+        {
+            PlayerManager.Instance.PlayerSounds.Walking(false, rb.velocity.magnitude);
+        }
     }
 
     private void Jump()
     {
-        jumpSoundEffect.Play();
+        PlayerManager.Instance.PlayerSounds.Jump();
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
     }
 
@@ -190,6 +197,7 @@ public class PlayerMovement : MonoBehaviour
     private void PlayerMelee()
     {
         SetMovementState(MovementState.attack);
+        PlayerManager.Instance.PlayerSounds.Melee();
         isAnimationStarting = true;
         timer = meleeTime;
     }

@@ -6,6 +6,7 @@ public class Weapon : MonoBehaviour
     [SerializeField] private GameObject bulletPrefab;
     public void Shoot()
     {
+        PlayerManager.Instance.PlayerSounds.Shoot();
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
     }
 }

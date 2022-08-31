@@ -7,6 +7,7 @@ public class PlayerManager : MonoBehaviour
     public ItemCollector itemCollector;
     public PlayerLife playerLife;
     public Weapon weapon;
+    public PlayerSounds PlayerSounds;
 
     private void Awake()
     {

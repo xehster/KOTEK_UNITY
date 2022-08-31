@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -10,7 +9,6 @@ public class PlayerLife : MonoBehaviour
     private int maxHealth;
     [SerializeField] int kotekHealthPoints;
     [SerializeField] private HealthCheck healthCheck;
-    [SerializeField] private AudioSource deathSoundEffect;
     [SerializeField] private float recoveryTime = 1f;
     
     private Animator anim;
@@ -107,7 +105,7 @@ public class PlayerLife : MonoBehaviour
     {
         move.enabled = false;
         anim.SetTrigger("death");
-        deathSoundEffect.Play();
+        PlayerManager.Instance.PlayerSounds.Death();
     }
 
     private void RestartLevel()
