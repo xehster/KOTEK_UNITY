@@ -26,4 +26,10 @@ public class ItemAssets : MonoBehaviour
    public Sprite energydrinkSprite;
    public Sprite teaSprite;
    public Sprite mouseSprite;
+
+   public ItemInfoData catFoodData;
+   public ItemInfoData pieData;
+   public ItemInfoData EnergyDrinkData;
+   public ItemInfoData TeaData;
+   public ItemInfoData MouseData;
 }

@@ -7,6 +7,11 @@ public class UI_Inventory : MonoBehaviour
    [SerializeField] private Transform itemSlotContainer;
    [SerializeField] private ItemSlot itemSlotTemplate;
 
+   public Transform canvas;
+   public GameObject itemInfoPrefab;
+   private GameObject currentItemInfo = null;
+   
+
    public void SetInventory(Inventory inventory)
    {
       uiInventory = inventory;
@@ -28,7 +33,7 @@ public class UI_Inventory : MonoBehaviour
       {
          ItemSlot itemSlot = Instantiate(itemSlotTemplate, itemSlotContainer);
          itemSlot.gameObject.SetActive(true);
-         itemSlot.SetupData(item.GetSprite(), item.amount, UseItem(item));
+         itemSlot.SetupData(item, UseItem(item));
       }
    }
 
@@ -37,7 +42,7 @@ public class UI_Inventory : MonoBehaviour
       switch (item.itemType)
       {
          case Item.ItemType.Catfood:
-            return IncreaseHealthDouble;
+            return UseCatFood;
             break;
          case Item.ItemType.Pie:
             return IncreaseHealth;
@@ -53,14 +58,33 @@ public class UI_Inventory : MonoBehaviour
    private void IncreaseHealth()
    {
       PlayerManager.Instance.playerLife.IncreaseHealth(PlayerLife.smallHeart);
+      uiInventory.UseItem(new Item()
+      {
+         itemType = Item.ItemType.Pie
+      });
+      RefreshInventoryItems();
    }
 
-   private void TeleportPlayerToSpawn()
+   private void UseCatFood()
    {
-      PlayerManager.Instance.TeleportPlayerTo(new Vector2(0, 0));
+      IncreaseHealthDouble();
       uiInventory.UseItem(new Item()
       {
          itemType = Item.ItemType.Catfood
       });
+      RefreshInventoryItems();
    }
+   
+   private void UsePie()
+   {
+      IncreaseHealth();
+      uiInventory.UseItem(new Item()
+      {
+         itemType = Item.ItemType.Pie
+      });
+      RefreshInventoryItems();
+   }
+   
+   
+
 }

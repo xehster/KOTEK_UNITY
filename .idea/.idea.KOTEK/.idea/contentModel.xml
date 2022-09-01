@@ -56,6 +56,7 @@
             <e p="Item.cs" t="Include" />
             <e p="ItemAssets.cs" t="Include" />
             <e p="ItemCollector.cs" t="Include" />
+            <e p="ItemInfo.cs" t="Include" />
             <e p="Items" t="Include">
               <e p="ItemSlot.cs" t="Include" />
             </e>
