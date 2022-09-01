@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private GameObject interactIcon;
     [SerializeField] private Weapon weapon;
     [SerializeField] private UI_Inventory uiInventory;
+    [SerializeField] private HideAndShowInventory hideAndShowInventory;
     private MovementState state;
     private bool isAnimationStarting;
     private Rigidbody2D rb;
@@ -70,6 +71,8 @@ public class PlayerMovement : MonoBehaviour
         ShootAnimationTimer();
         UpdateAnimation();
 
+        HideShowInventoryPanel();
+
 
     }
 
@@ -114,14 +117,32 @@ public class PlayerMovement : MonoBehaviour
         currentCollision = null;
         jumpOffCoroutineIsRunning = false;
     }
-
-
+    
     private void Awake()
     {
         inventory = new Inventory();
         uiInventory.SetInventory(inventory);
+        hideAndShowInventory.hideInventoryPanel();
     }
 
+    private void HideShowInventoryPanel()
+    {
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            if (hideAndShowInventory.isVisible)
+            {
+                hideAndShowInventory.hideInventoryPanel();
+            }
+            else
+            {
+                hideAndShowInventory.showInventoryPanel();
+            }
+
+        }
+    }
+    
+    
+    
 
     private void OnTriggerEnter2D(Collider2D collider)
     {

@@ -51,6 +51,7 @@
           <e p="EndMenu.cs" t="Include" />
           <e p="Finish.cs" t="Include" />
           <e p="Inventory" t="Include">
+            <e p="HideAndShowInventory.cs" t="Include" />
             <e p="Inventory.cs" t="Include" />
             <e p="Item.cs" t="Include" />
             <e p="ItemAssets.cs" t="Include" />

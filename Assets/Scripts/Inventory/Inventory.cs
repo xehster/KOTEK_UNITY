@@ -25,6 +25,7 @@ public class Inventory
             itemList.Add(item);  
         }
     }
+    
 
     public void UseItem(Item item)
     {
@@ -39,7 +40,7 @@ public class Inventory
             }
         }
     }
-
+    
     public List<Item> GetItemList()
     {
         return itemList;
