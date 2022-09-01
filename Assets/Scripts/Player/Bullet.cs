@@ -16,7 +16,6 @@ public class Bullet : MonoBehaviour
     {
         if (hitInfo.CompareTag("Enemy"))
         {
-            Debug.Log(hitInfo.name);
             Destroy(gameObject);
         }
     }

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class ItemCollector : MonoBehaviour
 {
-   private int kittensouls = 0;
+   public int kittensouls = 0;
    [SerializeField] private Text kittenSoulsText;
    private void OnTriggerEnter2D(Collider2D collision)
    {
@@ -15,6 +15,15 @@ public class ItemCollector : MonoBehaviour
          PlayerManager.Instance.PlayerSounds.PlayCollectSound();
          Destroy(collision.gameObject);
          kittensouls++;
+         kittenSoulsText.text = "" + kittensouls;
+      }
+   }
+
+   public void KittenSoulDecrease()
+   {
+      if (kittensouls > 0)
+      {
+         kittensouls -= 1;
          kittenSoulsText.text = "" + kittensouls;
       }
    }

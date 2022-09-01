@@ -24,8 +24,8 @@ public class PlayerMovement : MonoBehaviour
     private BoxCollider2D coll;
     private SpriteRenderer sprite;
     private float timer;
-    private float shootTime = 0.05f;
-    private float meleeTime = 0.05f;
+    private float shootTime = 0.5f;
+    private float meleeTime = 0.1f;
     private const float axisDeadZone = 0.2f;
     private enum MovementState { idle, running, jumping, falling, shooting, attack }
     private Vector2 boxSize = new Vector2(0.1f, 1f);
@@ -35,8 +35,8 @@ public class PlayerMovement : MonoBehaviour
     private bool jumpOffCoroutineIsRunning;
     private bool facingRight = true;
 
-        
-    
+
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -171,12 +171,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void UpdateAnimation()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") && timer <= 0)
         {
             PlayerShoot();
         }
         
-        if (Input.GetButtonDown("Fire3"))
+        if (Input.GetButtonDown("Fire3") && timer <= 0)
         {
             PlayerAttack();
         }
@@ -207,12 +207,17 @@ public class PlayerMovement : MonoBehaviour
 
     private void PlayerShoot()
     {
-        SetMovementState(MovementState.shooting);
-        anim.Play("Player_Shoot");
-        anim.SetBool("isAttack", true );
-        weapon.Shoot();
-        isAnimationStarting = true;
-        timer = shootTime;
+        if (PlayerManager.Instance.itemCollector.kittensouls > 0)
+        {
+            SetMovementState(MovementState.shooting);
+            anim.Play("Player_Shoot");
+            anim.SetBool("isAttack", true );
+            weapon.Shoot();
+            PlayerManager.Instance.itemCollector.KittenSoulDecrease();
+            isAnimationStarting = true;
+            timer = shootTime;
+
+        }
     }
 
     private void PlayerMelee()
