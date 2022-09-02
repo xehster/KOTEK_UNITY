@@ -25,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer sprite;
     private float timer;
     private float shootTime = 0.5f;
-    private float meleeTime = 0.1f;
+    private float meleeTime = 0.4f;
     private const float axisDeadZone = 0.2f;
     private enum MovementState { idle, running, jumping, falling, shooting, attack }
     private Vector2 boxSize = new Vector2(0.1f, 1f);
@@ -34,6 +34,7 @@ public class PlayerMovement : MonoBehaviour
     private Collision2D currentCollision;
     private bool jumpOffCoroutineIsRunning;
     private bool facingRight = true;
+    public float speedMultiplier = 1;
 
 
 
@@ -82,11 +83,12 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
         if (IsOnGround() && rb.velocity.magnitude > 0)
         {
-            PlayerManager.Instance.PlayerSounds.Walking(true, rb.velocity.magnitude);
+            anim.SetFloat("moveSpeed", rb.velocity.magnitude);
+            PlayerManager.Instance.PlayerSounds.Walking(true, rb.velocity.magnitude * speedMultiplier);
         }
         else
         {
-            PlayerManager.Instance.PlayerSounds.Walking(false, rb.velocity.magnitude);
+            PlayerManager.Instance.PlayerSounds.Walking(false, rb.velocity.magnitude * speedMultiplier);
         }
     }
 
