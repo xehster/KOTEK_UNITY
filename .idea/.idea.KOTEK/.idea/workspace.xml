@@ -3,15 +3,663 @@
   <component name="ChangeListManager">
     <list default="true" id="dc55d359-e0f3-4f29-a3ca-8f1e4c3f4754" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KOTEK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KOTEK/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EndScreen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EndScreen.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartScreen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartScreen.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemCollector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemCollector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Bullet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-01.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-02.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-03.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-03.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-04.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-04.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-05.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-05.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-06.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-06.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-07.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-07.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-08.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-08.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-09.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-09.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-10.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-10.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-11.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-11.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-12.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-12.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-13.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-13.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-14.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-14.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-15.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-15.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-16.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-16.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-17.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-17.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-18.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-18.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-19.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-19.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-20.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-20.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-21.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-21.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-22.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-22.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-23.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-23.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-24.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-24.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-27.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-27.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-28.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-28.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-29.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-29.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-30.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-30.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-31.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-31.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-32.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-32.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-33.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-33.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-34.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-34.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-35.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-35.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-36.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-36.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-37.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-37.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-38.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-38.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-39.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-39.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-40.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-40.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-41.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-41.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-42.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-42.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-43.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-43.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-44.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-44.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-46.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-46.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-48.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-48.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-49.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-49.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-50.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-50.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/collecting.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/collecting.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/death.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/death.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/finish.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/finish.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/jump.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/license.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/license.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Background.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Background/Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Background/Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Background/Brown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Background/Brown.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Background/Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Background/Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Background/Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Background/Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Background/Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Background/Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Background/Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Background/Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Background/Yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Background/Yellow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Boxes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Boxes/Box1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Boxes/Box1/Break (28x24).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Boxes/Box1/Break (28x24).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Boxes/Box1/Hit (28x24).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Boxes/Box1/Hit (28x24).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Boxes/Box1/Idle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Boxes/Box1/Idle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Boxes/Box2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Boxes/Box2/Break (28x24).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Boxes/Box2/Break (28x24).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Boxes/Box2/Hit (28x24).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Boxes/Box2/Hit (28x24).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Boxes/Box2/Idle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Boxes/Box2/Idle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Boxes/Box3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Boxes/Box3/Break (28x24).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Boxes/Box3/Break (28x24).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Boxes/Box3/Hit (28x24).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Boxes/Box3/Hit (28x24).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Boxes/Box3/Idle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Boxes/Box3/Idle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Checkpoints.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Idle)(64x64).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Idle)(64x64).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Out) (64x64).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Out) (64x64).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (No Flag).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (No Flag).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Checkpoints/End.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Checkpoints/End/End (Idle).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Checkpoints/End/End (Idle).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Checkpoints/End/End (Pressed) (64x64).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Checkpoints/End/End (Pressed) (64x64).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Checkpoints/Start.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Checkpoints/Start/Start (Idle).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Checkpoints/Start/Start (Idle).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Checkpoints/Start/Start (Moving) (64x64).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Checkpoints/Start/Start (Moving) (64x64).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Fruits.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Fruits/Apple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Fruits/Apple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Fruits/Bananas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Fruits/Bananas.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Fruits/Cherries.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Fruits/Cherries.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Fruits/Collected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Fruits/Collected.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Fruits/Kiwi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Fruits/Kiwi.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Fruits/Melon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Fruits/Melon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Fruits/Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Fruits/Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Fruits/Pineapple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Fruits/Pineapple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Fruits/Strawberry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Items/Fruits/Strawberry.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Appearing (96x96).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Appearing (96x96).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Desappearing (96x96).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Desappearing (96x96).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Double Jump (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Double Jump (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Fall (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Fall (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Hit (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Hit (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Idle (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Idle (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Jump (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Jump (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Run (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Run (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Wall Jump (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Wall Jump (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Double Jump (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Double Jump (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Fall (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Fall (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Hit (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Hit (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Idle (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Idle (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Jump (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Jump (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Run (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Run (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Wall Jump (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Wall Jump (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Double Jump (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Double Jump (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Fall (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Fall (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Hit (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Hit (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Idle (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Idle (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Jump (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Jump (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Run (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Run (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Wall Jump (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Wall Jump (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Double Jump (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Double Jump (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Fall (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Fall (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Hit (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Hit (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Idle (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Idle (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Jump (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Jump (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Run (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Run (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Wall Jump (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Wall Jump (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Other.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Other/Confetti (16x16).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Other/Confetti (16x16).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Other/Dust Particle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Other/Dust Particle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Other/Shadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Other/Shadow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Other/Transition.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Other/Transition.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Terrain (16x16) 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Terrain (16x16) 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Terrain Sliced (16x16).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Terrain Sliced (16x16).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_0.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_0.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_10.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_10.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_100.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_100.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_101.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_101.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_102.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_102.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_103.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_103.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_104.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_104.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_105.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_105.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_106.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_106.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_107.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_107.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_108.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_108.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_109.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_109.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_11.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_11.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_110.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_110.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_111.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_111.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_112.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_112.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_113.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_113.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_114.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_114.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_115.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_115.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_116.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_116.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_117.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_117.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_118.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_118.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_119.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_119.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_12.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_12.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_120.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_120.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_121.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_121.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_122.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_122.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_123.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_123.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_124.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_124.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_125.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_125.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_126.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_126.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_127.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_127.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_128.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_128.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_129.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_129.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_13.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_13.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_130.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_130.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_131.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_131.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_132.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_132.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_133.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_133.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_134.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_134.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_135.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_135.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_136.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_136.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_137.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_137.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_138.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_138.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_139.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_139.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_14.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_14.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_140.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_140.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_141.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_141.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_142.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_142.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_143.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_143.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_15.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_15.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_16.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_16.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_17.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_17.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_18.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_18.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_19.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_19.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_2.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_20.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_20.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_21.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_21.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_22.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_22.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_23.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_23.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_24.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_24.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_25.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_25.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_26.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_26.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_27.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_27.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_28.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_28.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_29.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_29.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_3.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_3.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_30.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_30.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_31.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_31.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_32.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_32.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_33.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_33.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_34.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_34.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_35.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_35.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_36.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_36.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_37.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_37.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_38.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_38.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_39.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_39.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_4.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_4.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_40.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_40.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_41.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_41.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_42.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_42.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_43.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_43.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_44.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_44.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_45.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_45.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_46.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_46.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_47.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_47.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_48.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_48.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_49.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_49.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_5.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_5.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_50.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_50.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_51.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_51.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_52.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_52.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_53.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_53.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_54.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_54.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_55.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_55.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_56.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_56.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_57.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_57.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_58.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_58.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_59.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_59.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_6.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_6.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_60.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_60.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_61.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_61.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_62.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_62.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_63.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_63.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_64.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_64.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_65.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_65.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_66.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_66.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_67.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_67.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_68.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_68.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_69.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_69.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_7.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_7.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_70.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_70.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_71.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_71.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_72.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_72.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_73.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_73.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_74.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_74.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_75.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_75.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_76.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_76.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_77.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_77.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_78.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_78.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_79.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_79.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_8.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_8.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_80.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_80.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_81.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_81.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_82.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_82.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_83.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_83.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_84.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_84.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_85.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_85.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_86.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_86.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_87.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_87.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_88.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_88.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_89.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_89.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_9.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_9.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_90.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_90.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_91.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_91.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_92.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_92.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_93.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_93.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_94.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_94.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_95.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_95.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_96.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_96.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_97.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_97.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_98.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_98.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_99.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Terrain/Tiles/Terrain (16x16)_99.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Arrow.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Arrow/Hit (18x18).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Arrow/Hit (18x18).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Arrow/Idle (18x18).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Arrow/Idle (18x18).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Blocks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Blocks/HitSide (22x22).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Blocks/HitSide (22x22).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Blocks/HitTop (22x22).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Blocks/HitTop (22x22).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Blocks/Idle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Blocks/Idle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Blocks/Part 1 (22x22).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Blocks/Part 1 (22x22).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Blocks/Part 2 (22x22).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Blocks/Part 2 (22x22).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Falling Platforms.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Falling Platforms/Off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Falling Platforms/Off.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Falling Platforms/On (32x10).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Falling Platforms/On (32x10).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Fan.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Fan/Off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Fan/Off.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Fan/On (24x8).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Fan/On (24x8).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Fire.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Fire/Hit (16x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Fire/Hit (16x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Fire/Off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Fire/Off.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Fire/On (16x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Fire/On (16x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Platforms.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Platforms/Brown Off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Platforms/Brown Off.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Platforms/Brown On (32x8).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Platforms/Brown On (32x8).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Platforms/Chain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Platforms/Chain.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Platforms/Grey Off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Platforms/Grey Off.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Platforms/Grey On (32x8).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Platforms/Grey On (32x8).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Rock Head.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Rock Head/Blink (42x42).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Rock Head/Blink (42x42).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Rock Head/Bottom Hit (42x42).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Rock Head/Bottom Hit (42x42).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Rock Head/Idle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Rock Head/Idle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Rock Head/Left Hit (42x42).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Rock Head/Left Hit (42x42).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Rock Head/Right Hit (42x42).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Rock Head/Right Hit (42x42).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Rock Head/Top Hit (42x42).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Rock Head/Top Hit (42x42).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Sand Mud Ice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Sand Mud Ice/Ice Particle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Sand Mud Ice/Ice Particle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Sand Mud Ice/Mud Particle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Sand Mud Ice/Mud Particle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Sand Mud Ice/Sand Mud Ice (16x6) 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Sand Mud Ice/Sand Mud Ice (16x6) 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Sand Mud Ice/Sand Mud Ice Sliced (16x6).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Sand Mud Ice/Sand Mud Ice Sliced (16x6).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Sand Mud Ice/Sand Particle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Sand Mud Ice/Sand Particle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Saw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Saw/Chain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Saw/Chain.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Saw/Off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Saw/Off.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Saw/On (38x38).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Saw/On (38x38).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Spike Head.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Spike Head/Blink (54x52).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Spike Head/Blink (54x52).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Spike Head/Bottom Hit (54x52).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Spike Head/Bottom Hit (54x52).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Spike Head/Idle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Spike Head/Idle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Spike Head/Left Hit (54x52).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Spike Head/Left Hit (54x52).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Spike Head/Right Hit (54x52).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Spike Head/Right Hit (54x52).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Spike Head/Top Hit (54x52).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Spike Head/Top Hit (54x52).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Spiked Ball.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Spiked Ball/Chain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Spiked Ball/Chain.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Spiked Ball/Spiked Ball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Spiked Ball/Spiked Ball.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Spikes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Spikes/Idle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Spikes/Idle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Trampoline.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Trampoline/Idle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Trampoline/Idle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Trampoline/Jump (28x28).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Traps/Trampoline/Jump (28x28).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Scenes/Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Scenes/Demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/LightingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC/EnemyLife.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPC/EnemyLife.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,6 +753,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/HealthCheck.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemCollector.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPC/EnemyLife.cs" />
       </list>
     </option>
   </component>
@@ -186,6 +835,7 @@
       <workItem from="1661928847684" duration="14065000" />
       <workItem from="1662020643713" duration="4378000" />
       <workItem from="1662033292843" duration="9055000" />
+      <workItem from="1662103602803" duration="678000" />
     </task>
     <servers />
   </component>
