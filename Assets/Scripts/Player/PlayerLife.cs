@@ -7,7 +7,7 @@ public class PlayerLife : MonoBehaviour
     private const int enemyDamage = 1;
     public const int smallHeart = 1;
     private int maxHealth;
-    [SerializeField] int kotekHealthPoints;
+    public int kotekHealthPoints;
     [SerializeField] private HealthCheck healthCheck;
     [SerializeField] private float recoveryTime = 1f;
     
@@ -16,14 +16,17 @@ public class PlayerLife : MonoBehaviour
     private bool isDamaged;
     private float damageTime;
     
-    
-
-    
     private void Start()
     {
         maxHealth = kotekHealthPoints;
         move = GetComponent<PlayerMovement>();
         anim = GetComponent<Animator>();
+        healthCheck.SetCurrentHealth(kotekHealthPoints);
+    }
+    
+    public void SetHealthPoints(int health)
+    {
+        kotekHealthPoints = health;
         healthCheck.SetCurrentHealth(kotekHealthPoints);
     }
 

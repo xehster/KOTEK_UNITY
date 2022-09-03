@@ -19,6 +19,12 @@ public class ItemCollector : MonoBehaviour
       }
    }
 
+   public void SetKittenSouls(int souls)
+   {
+      kittensouls = souls;
+      kittenSoulsText.text = kittensouls.ToString();
+   }
+
    public void KittenSoulDecrease()
    {
       if (kittensouls > 0)

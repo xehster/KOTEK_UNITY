@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
 {
     private const int nonJumpOffLayer = 8;
     public Transform attackPoint;
-    public float attackRange = 3f;
+    public float attackRange = 5f;
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private float jumpForce = 12f;
     [SerializeField] private LayerMask jumpableGround;
@@ -231,6 +231,7 @@ public class PlayerMovement : MonoBehaviour
         //damage
         foreach(Collider2D enemy in hitEnemies)
         {
+            Debug.Log(enemy.name);
             enemy.GetComponent<EnemyLife>().DecreaseHealth();
         }
     }

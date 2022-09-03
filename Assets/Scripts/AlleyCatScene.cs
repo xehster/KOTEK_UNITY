@@ -24,6 +24,7 @@ public class AlleyCatScene : Interactable
     private void EndLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        MemoryManager.Instance.SavePlayer();
     }
 }
 

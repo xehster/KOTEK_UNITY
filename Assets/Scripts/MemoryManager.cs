@@ -10,14 +10,16 @@ public class MemoryManager : MonoBehaviour
 {
     public static MemoryManager Instance { get; private set; }
     public List<Memory> CachedMemories;
-    public List<NPCConversation> NPCConversations;
+    public int Health;
+    public int KittenSouls;
     [SerializeField] private MemoriesScriptableObject memories;
 
     private void Awake()
     {
         Instance = this;
-
-        StartCoroutine(InitWithTime());
+        InitSavedMemories();
+        ConversationManager.OnConversationStarted += OnConversationStarted;
+        LoadPlayer();
     }
 
     private void InitSavedMemories()
@@ -29,16 +31,37 @@ public class MemoryManager : MonoBehaviour
                     name = memory.name,
                     state = LoadStateByName(memory.name)
                 };
-            ConversationManager.Instance.SetBool(memoryObject.name, memoryObject.state);
             CachedMemories.Add(memoryObject);
         }
     }
 
-    private IEnumerator InitWithTime()
+    public void LoadPlayer()
     {
-        yield return new WaitForSeconds(.1f);
-        InitSavedMemories();
-        ConversationManager.OnConversationStarted += OnConversationStarted;
+        Health = PlayerPrefs.GetInt("Health");
+        KittenSouls = PlayerPrefs.GetInt("KittenSouls");
+        if (Health != 0)
+        {
+            PlayerManager.Instance.playerLife.SetHealthPoints(Health);
+        }
+
+        if (KittenSouls != 0)
+        {
+            PlayerManager.Instance.itemCollector.SetKittenSouls(KittenSouls);
+        }
+    }
+
+    public void SavePlayer()
+    {
+        PlayerPrefs.SetInt("Health", PlayerManager.Instance.playerLife.kotekHealthPoints);
+        PlayerPrefs.SetInt("KittenSouls", PlayerManager.Instance.itemCollector.kittensouls);
+    }
+
+    private void SetToConversationCachedMemories()
+    {
+        foreach (var memory in CachedMemories)
+        {
+            ConversationManager.Instance.SetBool(memory.name, memory.state);
+        }
     }
 
     private void Update()
@@ -51,16 +74,7 @@ public class MemoryManager : MonoBehaviour
 
     private void OnConversationStarted()
     {
-        InitSavedMemories();
-    }
-
-    private void GetAllConverstaions()
-    {
-        NPCConversation[] allConversations = FindObjectsOfType<NPCConversation>() ;
-        foreach (NPCConversation npcConversation in allConversations)
-        {
-            NPCConversations.Add(npcConversation);
-        }
+        SetToConversationCachedMemories();
     }
 
     private Memory GetMemoryByName(string name)
@@ -82,7 +96,7 @@ public class MemoryManager : MonoBehaviour
 
     private bool LoadStateByName(string name)
     {
-        var state = PlayerPrefs.GetInt(name.ToString());
+        var state = PlayerPrefs.GetInt(name);
         if (state == 1)
         {
            return  true;
