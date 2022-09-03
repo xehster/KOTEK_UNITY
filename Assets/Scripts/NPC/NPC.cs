@@ -28,7 +28,7 @@ public class NPC : MonoBehaviour
     }
 
     private void StartConverstion()
-    {
+    { ;
         ConversationManager.Instance.StartConversation(Conversation);
         ConversationManager.OnConversationEnded += OnConversationEnded;
         FollowToNPCCamera();

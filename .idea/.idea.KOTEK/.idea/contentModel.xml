@@ -99,6 +99,8 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="AlleyCatScene.cs" t="Include" />
+          <e p="BackFromAlleyCatScene.cs" t="Include" />
           <e p="Camera" t="Include">
             <e p="CameraController.cs" t="Include" />
           </e>
@@ -118,6 +120,10 @@
             <e p="ItemWorld.cs" t="Include" />
             <e p="UI_Inventory.cs" t="Include" />
           </e>
+          <e p="MemoryManager.cs" t="Include" />
+          <e p="Models" t="Include">
+            <e p="Memory.cs" t="Include" />
+          </e>
           <e p="NPC" t="Include">
             <e p="EnemyLife.cs" t="Include" />
             <e p="Interactable.cs" t="Include" />
@@ -131,6 +137,9 @@
             <e p="PlayerManager.cs" t="Include" />
             <e p="PlayerMovement.cs" t="Include" />
             <e p="Weapon.cs" t="Include" />
+          </e>
+          <e p="ScriptableObject" t="Include">
+            <e p="MemoriesScriptableObject.cs" t="Include" />
           </e>
           <e p="Sounds" t="Include">
             <e p="PlayerSounds.cs" t="Include" />

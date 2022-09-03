@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Finish : Interactable
+public class AlleyCatScene : Interactable
 
 {
     private AudioSource finishSound;
@@ -17,12 +17,13 @@ public class Finish : Interactable
     public override void Interact()
     {
         finishSound.Play();
-            levelCompleted = true;
-            Invoke("EndLevel", 1f);
+        levelCompleted = true;
+        Invoke("EndLevel", 0f);
     }
 
     private void EndLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
+

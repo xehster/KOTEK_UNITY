@@ -222,6 +222,11 @@ namespace DialogueEditor
         public void SetBool(string paramName, bool value)
         {
             eParamStatus status;
+            if (m_conversation == null)
+            {
+                LogWarning("Conversation does not exist.");
+                return;
+            }
             m_conversation.SetBool(paramName, value, out status);
 
             if (status == eParamStatus.NoParamFound)
@@ -246,6 +251,12 @@ namespace DialogueEditor
         public bool GetBool(string paramName)
         {
             eParamStatus status;
+            if (m_conversation == null)
+            {
+                LogWarning("Conversation does not exist.");
+                return false;
+            }
+            
             bool value = m_conversation.GetBool(paramName, out status);
 
             if (status == eParamStatus.NoParamFound)
