@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="dc55d359-e0f3-4f29-a3ca-8f1e4c3f4754" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KOTEK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KOTEK/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/FlyingCrying.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/FlyingCrying.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/torch.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/torch.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/torch2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/torch2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/HideAndShowInventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/HideAndShowInventory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +90,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerLife.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Weapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sounds/PlayerSounds.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/HideAndShowInventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/UI_Inventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemInfo.cs" />
@@ -102,6 +101,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemCollector.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NPC/EnemyLife.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/HideAndShowInventory.cs" />
       </list>
     </option>
   </component>
@@ -183,7 +183,8 @@
       <workItem from="1661928847684" duration="14065000" />
       <workItem from="1662020643713" duration="4378000" />
       <workItem from="1662033292843" duration="9055000" />
-      <workItem from="1662103602803" duration="2500000" />
+      <workItem from="1662103602803" duration="3097000" />
+      <workItem from="1662210422087" duration="1147000" />
     </task>
     <servers />
   </component>

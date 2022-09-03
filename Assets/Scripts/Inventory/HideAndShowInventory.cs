@@ -7,16 +7,16 @@ public class HideAndShowInventory : MonoBehaviour
     public GameObject inventoryPanel;
     public bool isVisible;
 
-    public void hideInventoryPanel()
+    public void hideAndShowPanel()
     {
-        inventoryPanel.gameObject.SetActive(false);
-        isVisible = false;
-    }
-    
-    public void showInventoryPanel()
-    {
-        inventoryPanel.gameObject.SetActive(true);
-        isVisible = true;
+        if (inventoryPanel.gameObject.activeSelf)
+        {
+            inventoryPanel.gameObject.SetActive(false);
+        }
+        else
+        {
+            inventoryPanel.gameObject.SetActive(true);
+        }
     }
 }
 

@@ -124,22 +124,14 @@ public class PlayerMovement : MonoBehaviour
     {
         inventory = new Inventory();
         uiInventory.SetInventory(inventory);
-        hideAndShowInventory.hideInventoryPanel();
+        hideAndShowInventory.hideAndShowPanel();
     }
 
     private void HideShowInventoryPanel()
     {
         if (Input.GetKeyDown(KeyCode.I))
         {
-            if (hideAndShowInventory.isVisible)
-            {
-                hideAndShowInventory.hideInventoryPanel();
-            }
-            else
-            {
-                hideAndShowInventory.showInventoryPanel();
-            }
-
+            hideAndShowInventory.hideAndShowPanel();
         }
     }
     
