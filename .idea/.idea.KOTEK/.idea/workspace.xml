@@ -7,6 +7,7 @@
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemCollector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemCollector.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MemoryManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MemoryManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerLife.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerLife.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -195,7 +196,7 @@
       <workItem from="1662020643713" duration="4378000" />
       <workItem from="1662033292843" duration="9055000" />
       <workItem from="1662103602803" duration="3097000" />
-      <workItem from="1662210422087" duration="10469000" />
+      <workItem from="1662210422087" duration="11163000" />
     </task>
     <servers />
   </component>
