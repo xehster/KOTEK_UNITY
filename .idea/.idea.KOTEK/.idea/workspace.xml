@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc55d359-e0f3-4f29-a3ca-8f1e4c3f4754" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.KOTEK/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KOTEK/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KOTEK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KOTEK/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AlleyCatScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AlleyCatScene.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemCollector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemCollector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MemoryManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MemoryManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerLife.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerLife.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/AlleyCatLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AlleyCatLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC/NPC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPC/NPC.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +30,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Finish.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaypointFollower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sounds/PlayerSounds.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC/Openable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC/NPC.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObject/MemoriesScriptableObject.cs" root0="FORCE_HIGHLIGHTING" />
@@ -105,7 +105,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObject/Memories.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObject/MemoriesScriptableObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/Memory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NPC/NPC.cs" />
         <option value="$PROJECT_DIR$/Assets/DialogueEditor/Assets/Scripts/UI/ConversationManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Finish.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AlleyCatScene.cs" />
@@ -114,6 +113,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemCollector.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MemoryManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPC/NPC.cs" />
       </list>
     </option>
   </component>
@@ -197,6 +197,7 @@
       <workItem from="1662033292843" duration="9055000" />
       <workItem from="1662103602803" duration="3097000" />
       <workItem from="1662210422087" duration="11163000" />
+      <workItem from="1662367892977" duration="884000" />
     </task>
     <servers />
   </component>

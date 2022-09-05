@@ -12,10 +12,19 @@ public class NPC : MonoBehaviour
     private CinemachineBrain cinemachineBrain;
     private Transform playerTransform;
     [SerializeField] private string savedData;
+    private float defaultFov;
 
     private void Awake()
     {
         cinemachineBrain = Camera.main.GetComponent<CinemachineBrain>();
+
+    }
+
+    private void Start()
+    {
+        defaultFov = cinemachineBrain.ActiveVirtualCamera.VirtualCameraGameObject
+            .GetComponent<CinemachineVirtualCamera>().m_Lens
+            .FieldOfView;
     }
 
     // Update is called once per frame
@@ -44,7 +53,7 @@ public class NPC : MonoBehaviour
         cinemachineBrain.ActiveVirtualCamera.Follow = transform;
         cinemachineBrain.ActiveVirtualCamera.LookAt = transform;
         cinemachineBrain.ActiveVirtualCamera.VirtualCameraGameObject.GetComponent<CinemachineVirtualCamera>().m_Lens
-            .FieldOfView = 30f;
+            .FieldOfView = 40f;
     }
 
     private void FollowPlayer()
@@ -52,7 +61,7 @@ public class NPC : MonoBehaviour
         cinemachineBrain.ActiveVirtualCamera.Follow = playerTransform;
         cinemachineBrain.ActiveVirtualCamera.LookAt = playerTransform;
         cinemachineBrain.ActiveVirtualCamera.VirtualCameraGameObject.GetComponent<CinemachineVirtualCamera>().m_Lens
-            .FieldOfView = 60f;
+            .FieldOfView = defaultFov;
     }
 
     private void OnTriggerEnter2D(Collider2D other)

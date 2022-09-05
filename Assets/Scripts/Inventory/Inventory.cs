@@ -16,6 +16,7 @@ public class Inventory
     public void AddItem(Item item)
     {
         var existedItem = itemList.FirstOrDefault(x => x.itemType == item.itemType);
+        PlayerManager.Instance.PlayerSounds.PlayCollectSound();
         if (existedItem != null)
         {
             existedItem.amount += 1;
