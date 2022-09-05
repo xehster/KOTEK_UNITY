@@ -7,61 +7,8 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Candice AI for Games" t="Include">
-          <e p="Scripts" t="Include">
-            <e p="BasicPlayerController.cs" t="Include" />
-            <e p="CandiceAIController.cs" t="Include" />
-            <e p="CandiceAIManager.cs" t="Include" />
-            <e p="CandiceDamageReceiver.cs" t="Include" />
-            <e p="CandiceProjectile.cs" t="Include" />
-            <e p="CandiceWaypoint.cs" t="Include" />
-            <e p="Editor" t="Include">
-              <e p="CandiceAIController_Editor.cs" t="Include" />
-              <e p="CandiceAIManager_Editor.cs" t="Include" />
-              <e p="CandiceAutorun.cs" t="Include" />
-              <e p="CandiceBehaviorTreeMono_Editor.cs" t="Include" />
-              <e p="StarupWindow.cs" t="Include" />
-            </e>
-            <e p="Libs" t="Include">
-              <e p="Candice Behavior Tree" t="Include">
-                <e p="CandiceBehaviorAction.cs" t="Include" />
-                <e p="CandiceBehaviorNode.cs" t="Include" />
-                <e p="CandiceBehaviorNodeS.cs" t="Include" />
-                <e p="CandiceBehaviorStates.cs" t="Include" />
-                <e p="CandiceBehaviorTree.cs" t="Include" />
-                <e p="CandiceBehaviorTreeMono.cs" t="Include" />
-                <e p="CandiceBehaviorTreeS.cs" t="Include" />
-                <e p="CandiceDefaultBehaviors.cs" t="Include" />
-                <e p="NewBehaviourScript.cs" t="Include" />
-                <e p="Nodes" t="Include">
-                  <e p="CandiceBehaviorInverter.cs" t="Include" />
-                  <e p="CandiceBehaviorSelector.cs" t="Include" />
-                  <e p="CandiceBehaviorSequence.cs" t="Include" />
-                </e>
-              </e>
-              <e p="Candice Pathfinding" t="Include">
-                <e p="CandiceGrid.cs" t="Include" />
-                <e p="CandicePathFinding.cs" t="Include" />
-                <e p="CandiceTile.cs" t="Include" />
-                <e p="Line.cs" t="Include" />
-                <e p="Node.cs" t="Include" />
-                <e p="Path.cs" t="Include" />
-              </e>
-              <e p="Data" t="Include">
-                <e p="CandiceHeap.cs" t="Include" />
-              </e>
-              <e p="Utilities" t="Include">
-                <e p="Utils.cs" t="Include" />
-              </e>
-            </e>
-            <e p="Modules" t="Include">
-              <e p="CandiceBaseModule.cs" t="Include" />
-              <e p="CandiceModuleCombat.cs" t="Include" />
-              <e p="CandiceModuleDetection.cs" t="Include" />
-              <e p="CandiceModuleMovement.cs" t="Include" />
-            </e>
-          </e>
-        </e>
+        <e p="Crow_boss.cs" t="Include" />
+        <e p="Crow_boss_walk.cs" t="Include" />
         <e p="DialogueEditor" t="Include">
           <e p="Assets" t="Include">
             <e p="Scripts" t="Include">

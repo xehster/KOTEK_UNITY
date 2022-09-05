@@ -4,6 +4,153 @@
     <list default="true" id="dc55d359-e0f3-4f29-a3ca-8f1e4c3f4754" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KOTEK/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KOTEK/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KOTEK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KOTEK/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Bullet.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Bullet.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Ground.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Ground.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Prefabs/AI Agent.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Prefabs/AI Agent.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Prefabs/Bullet.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Prefabs/Bullet.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Prefabs/Ground.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Prefabs/Ground.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/Animation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/Animation.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/CandiceLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/CandiceLogo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/CandiceLogoWithText.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/CandiceLogoWithText.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/Combat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/Combat.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/Controller.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/Controller.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/Detection.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/Detection.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/LogoScaled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/LogoScaled.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/Movement.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/Movement.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/Settings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/Settings.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/Stats.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/Stats.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/discord.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/discord.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/email.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/email.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/facebook.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/web.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/web.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/youtube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Resources/youtube.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scenes/Demo 2D Game.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scenes/Demo 2D Game.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scenes/Demo Scene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scenes/Demo Scene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/BasicPlayerController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/BasicPlayerController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/CandiceAIController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/CandiceAIController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/CandiceAIManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/CandiceAIManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/CandiceDamageReceiver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/CandiceDamageReceiver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/CandiceProjectile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/CandiceProjectile.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/CandiceWaypoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/CandiceWaypoint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Editor/CandiceAIController_Editor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Editor/CandiceAIController_Editor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Editor/CandiceAIManager_Editor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Editor/CandiceAIManager_Editor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Editor/CandiceAutorun.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Editor/CandiceAutorun.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Editor/CandiceBehaviorTreeMono_Editor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Editor/CandiceBehaviorTreeMono_Editor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Editor/StarupWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Editor/StarupWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Behavior Tree.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Behavior Tree/CandiceBehaviorAction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Behavior Tree/CandiceBehaviorAction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Behavior Tree/CandiceBehaviorNode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Behavior Tree/CandiceBehaviorNode.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Behavior Tree/CandiceBehaviorNodeS.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Behavior Tree/CandiceBehaviorNodeS.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Behavior Tree/CandiceBehaviorStates.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Behavior Tree/CandiceBehaviorStates.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Behavior Tree/CandiceBehaviorTree.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Behavior Tree/CandiceBehaviorTree.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Behavior Tree/CandiceBehaviorTreeMono.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Behavior Tree/CandiceBehaviorTreeMono.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Behavior Tree/CandiceBehaviorTreeS.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Behavior Tree/CandiceBehaviorTreeS.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Behavior Tree/CandiceDefaultBehaviors.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Behavior Tree/CandiceDefaultBehaviors.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Behavior Tree/NewBehaviourScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Behavior Tree/NewBehaviourScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Behavior Tree/Nodes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Behavior Tree/Nodes/CandiceBehaviorInverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Behavior Tree/Nodes/CandiceBehaviorInverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Behavior Tree/Nodes/CandiceBehaviorSelector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Behavior Tree/Nodes/CandiceBehaviorSelector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Behavior Tree/Nodes/CandiceBehaviorSequence.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Behavior Tree/Nodes/CandiceBehaviorSequence.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Pathfinding.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Pathfinding/CandiceGrid.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Pathfinding/CandiceGrid.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Pathfinding/CandicePathFinding.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Pathfinding/CandicePathFinding.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Pathfinding/CandiceTile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Pathfinding/CandiceTile.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Pathfinding/Line.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Pathfinding/Line.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Pathfinding/Node.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Pathfinding/Node.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Pathfinding/Path.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Candice Pathfinding/Path.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Data.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Data/CandiceHeap.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Data/CandiceHeap.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Utilities.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Utilities/Utils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Libs/Utilities/Utils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Modules.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Modules/CandiceBaseModule.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Modules/CandiceBaseModule.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Modules/CandiceModuleCombat.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Modules/CandiceModuleCombat.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Modules/CandiceModuleDetection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Modules/CandiceModuleDetection.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Modules/CandiceModuleMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/Modules/CandiceModuleMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/New Animation.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/New Animation.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/New Animator Controller.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Scripts/New Animator Controller.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Sprites/Background1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Sprites/Background1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Sprites/bar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Sprites/bar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Sprites/hero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Sprites/hero.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Sprites/key.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Sprites/key.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Sprites/monster.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/Sprites/monster.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/User Manual.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Candice AI for Games/User Manual.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/AlleyCatLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AlleyCatLevel.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +164,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Level1.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Crow_boss.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerLife.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
@@ -42,6 +190,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Items/ItemSlot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AlleyCatScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/UI_Inventory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Crow_boss_walk.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/ItemWorld.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DialogueEditor/Assets/Scripts/UI/ConversationManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sprites/hint.png.meta" root0="FORCE_HIGHLIGHTING" />
@@ -62,8 +211,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Finish.cs" />
-        <option value="$PROJECT_DIR$/Assets/StartMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/EndMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveBackground.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" />
@@ -113,6 +260,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/NPC/NPC.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenuController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Crow_boss.cs" />
+        <option value="$PROJECT_DIR$/Assets/Crow_boss_walk.cs" />
       </list>
     </option>
   </component>
@@ -196,7 +345,8 @@
       <workItem from="1662033292843" duration="9055000" />
       <workItem from="1662103602803" duration="3097000" />
       <workItem from="1662210422087" duration="11163000" />
-      <workItem from="1662367892977" duration="2205000" />
+      <workItem from="1662367892977" duration="3145000" />
+      <workItem from="1662414349948" duration="2230000" />
     </task>
     <servers />
   </component>
