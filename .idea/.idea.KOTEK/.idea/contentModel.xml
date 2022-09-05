@@ -120,6 +120,7 @@
             <e p="ItemWorld.cs" t="Include" />
             <e p="UI_Inventory.cs" t="Include" />
           </e>
+          <e p="MainMenuController.cs" t="Include" />
           <e p="MemoryManager.cs" t="Include" />
           <e p="Models" t="Include">
             <e p="Memory.cs" t="Include" />
