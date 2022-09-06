@@ -85,6 +85,16 @@ public class UI_Inventory : MonoBehaviour
       RefreshInventoryItems();
    }
    
+   private void UseKnife()
+   {
+      IncreaseHealth();
+      uiInventory.UseItem(new Item()
+      {
+         itemType = Item.ItemType.Knife
+      });
+      RefreshInventoryItems();
+   }
+   
    
 
 }

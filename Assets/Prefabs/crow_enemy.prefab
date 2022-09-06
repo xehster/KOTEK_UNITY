@@ -203,7 +203,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyHealthPoints: 6
-  enemyCollider: {fileID: 4864605039490206342}
   drop: {fileID: 0}
   rigidbody: {fileID: 4864605039490206338}
-  deathEffect: {fileID: 9148045550295727636, guid: 3e8170710165b2c45af7393f183a1f7d, type: 3}
+  deathEffect: {fileID: 0}

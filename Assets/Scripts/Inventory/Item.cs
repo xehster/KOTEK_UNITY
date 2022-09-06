@@ -11,6 +11,7 @@ public class Item {
         EnergyDrink,
         Tea,
         Mouse,
+        Knife,
     }
 
     public ItemType itemType;
@@ -26,6 +27,7 @@ public class Item {
             case ItemType.EnergyDrink: return ItemAssets.Instance.energydrinkSprite;
             case ItemType.Tea: return ItemAssets.Instance.teaSprite;
             case ItemType.Mouse: return ItemAssets.Instance.mouseSprite;
+            case ItemType.Knife: return ItemAssets.Instance.knifeSprite;
         }
         return null;
     }
@@ -39,6 +41,7 @@ public class Item {
             case ItemType.EnergyDrink: return ItemAssets.Instance.EnergyDrinkData;
             case ItemType.Tea: return ItemAssets.Instance.TeaData;
             case ItemType.Mouse: return ItemAssets.Instance.MouseData;
+            case ItemType.Knife: return ItemAssets.Instance.KnifeData;
         }
 
         return null;

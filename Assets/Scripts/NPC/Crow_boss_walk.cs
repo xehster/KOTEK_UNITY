@@ -8,7 +8,7 @@ public class Crow_boss_walk : StateMachineBehaviour
     private Rigidbody2D rb;
     private Crow_boss boss;
 
-    public float speed = 2.5f;
+    public float speed = 1.5f;
     public float attackRange = 2f;
     
     //OnStateEnter is called when a transition starts and the state machine starts to evaluate this state

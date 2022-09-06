@@ -137,10 +137,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyHealthPoints: 2
+  enemyCollider: {fileID: 1949849567}
   drop: {fileID: 6556539500330326099, guid: b658c030d63955b448c11df5191afe93, type: 3}
-  blood: {fileID: 0}
-  explosion: {fileID: 0}
-  collider: {fileID: 1949849567}
 --- !u!58 &1949849567
 CircleCollider2D:
   m_ObjectHideFlags: 0

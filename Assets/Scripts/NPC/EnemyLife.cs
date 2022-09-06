@@ -1,24 +1,34 @@
 using System.Collections;
-using System.Collections.Generic;
-using Unity.Mathematics;
 using UnityEngine;
 using Random = System.Random;
 
 public class EnemyLife : MonoBehaviour
 {
+    private const string IsDeadAnimationBool = "isDead";
+    private const string ProjectileTag = "Projectile";
     [SerializeField] public int enemyHealthPoints;
-    [SerializeField] private Collider2D enemyCollider;
+    private Collider2D enemyCollider;
     [SerializeField] private GameObject drop;
+    private Animator animator;
     private Random rnd = new Random();
+    private WaypointFollower waypointFollower;
     
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.gameObject.CompareTag("Projectile"))
+        if (collider.gameObject.CompareTag(ProjectileTag))
         {
             DecreaseHealth();
         }
     }
+
+    private void Awake()
+    {
+        waypointFollower = GetComponent<WaypointFollower>();
+        animator = GetComponent<Animator>();
+        enemyCollider = GetComponent<Collider2D>();
+    }
+
     public virtual void DecreaseHealth()
     {
         enemyHealthPoints = enemyHealthPoints - 1;
@@ -31,17 +41,18 @@ public class EnemyLife : MonoBehaviour
 
     public virtual void Die()
     {
-        var animator = GetComponent<Animator>();
-        animator.SetBool("isDead", true);
-
+        animator.SetBool("IsDead", true);
         enemyCollider.enabled = false;
-        GetComponent<WaypointFollower>().enabled = false;
+        if (waypointFollower != null)
+        {
+            waypointFollower.enabled = false;
+        }
         StartCoroutine(DissapearBody());
     }
 
     IEnumerator DissapearBody()
     {
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(1f);
         Destroy(gameObject);
     }
 

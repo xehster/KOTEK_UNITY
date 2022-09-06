@@ -10,26 +10,39 @@ public class NPC : MonoBehaviour
     public bool playerInRange;
     public NPCConversation Conversation;
     private CinemachineBrain cinemachineBrain;
+    private CinemachineVirtualCamera virtualCamera;
     private Transform playerTransform;
     [SerializeField] private string savedData;
     private float defaultFov;
 
     private void Awake()
     {
-        cinemachineBrain = Camera.main.GetComponent<CinemachineBrain>();
+        
 
     }
 
     private void Start()
     {
-        defaultFov = cinemachineBrain.ActiveVirtualCamera.VirtualCameraGameObject
-            .GetComponent<CinemachineVirtualCamera>().m_Lens
+
+    }
+
+    private void SetCamera()
+    {
+        if (Camera.main == null) return;
+        cinemachineBrain = Camera.main.GetComponent<CinemachineBrain>();
+        virtualCamera = cinemachineBrain.ActiveVirtualCamera.VirtualCameraGameObject
+            .GetComponent<CinemachineVirtualCamera>();
+        defaultFov = virtualCamera.m_Lens
             .FieldOfView;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (cinemachineBrain == null || virtualCamera == null)
+        {
+            SetCamera();
+        }
         if (Input.GetKeyDown(KeyCode.E) && playerInRange)
         {
             StartConverstion();
@@ -37,7 +50,7 @@ public class NPC : MonoBehaviour
     }
 
     private void StartConverstion()
-    { ;
+    { 
         ConversationManager.Instance.StartConversation(Conversation);
         ConversationManager.OnConversationEnded += OnConversationEnded;
         FollowToNPCCamera();

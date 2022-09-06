@@ -5,12 +5,9 @@ using UnityEngine;
 public class BossLife : EnemyLife
 {
     [SerializeField] private Rigidbody2D rigidbody;
-    [SerializeField] private GameObject deathEffect;
 
     public override void Die()
     {
-        Instantiate(deathEffect, transform.position, Quaternion.identity);
-        Destroy(gameObject);
         rigidbody.isKinematic = true;
         base.Die();
     }

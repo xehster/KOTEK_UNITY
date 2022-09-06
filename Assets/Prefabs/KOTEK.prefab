@@ -229,8 +229,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 805656959
-  m_SortingLayer: 4
+  m_SortingLayerID: -919934669
+  m_SortingLayer: 5
   m_SortingOrder: 99
   m_Sprite: {fileID: 21300000, guid: c042fe8aee694e546a48bc34a3110075, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -407,9 +407,11 @@ MonoBehaviour:
   interactIcon: {fileID: 1834336267563134021}
   weapon: {fileID: 1834336267818595879}
   uiInventory: {fileID: 0}
+  hideAndShowInventory: {fileID: 0}
   enemyLayers:
     serializedVersion: 2
     m_Bits: 128
+  speedMultiplier: 0.65
 --- !u!95 &1834336267818595902
 Animator:
   serializedVersion: 4
@@ -442,6 +444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a704f5cf97a9479498e0ccfaa4be5b05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  kittensouls: 0
   kittenSoulsText: {fileID: 0}
 --- !u!114 &1834336267818595900
 MonoBehaviour:
@@ -682,11 +685,11 @@ MonoBehaviour:
   talkingSource: {fileID: 4135625720570552553}
   weaponSource: {fileID: 1149368147474065250}
   walkingSound: {fileID: 8300000, guid: 8a93d95c076c3eb438b63b56ff28d1b0, type: 3}
-  jumpSound: {fileID: 8300000, guid: d46323e22e74e46baa241cbf48c85671, type: 3}
+  jumpSound: {fileID: 8300000, guid: cad27aa1dcbde92459e311e757b0d87b, type: 3}
   collectSound: {fileID: 8300000, guid: 52320e590bf774734a288886eba557ba, type: 3}
   deathSound: {fileID: 8300000, guid: 5fdb13d3756c84fecac96f5a2d124370, type: 3}
   shootSound: {fileID: 8300000, guid: 29bde6326b4c34ad8a12da475f79b50a, type: 3}
-  meleeSound: {fileID: 8300000, guid: 3becec1909f194046945d85ac1077772, type: 3}
+  meleeSound: {fileID: 8300000, guid: 1d6cfdf1a5691104280f73d076ba27aa, type: 3}
   meleeHitSound: {fileID: 8300000, guid: b9eff218e132a4e76be78840eca96fb2, type: 3}
   speedConfig: 0.36
 --- !u!1 &8463838547925163741

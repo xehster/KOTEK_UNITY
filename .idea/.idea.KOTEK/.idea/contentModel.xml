@@ -7,11 +7,6 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Boss_health.cs" t="Include" />
-        <e p="Boss_weapon.cs" t="Include" />
-        <e p="Crow_boss.cs" t="Include" />
-        <e p="Crow_boss_enrage.cs" t="Include" />
-        <e p="Crow_boss_walk.cs" t="Include" />
         <e p="DialogueEditor" t="Include">
           <e p="Assets" t="Include">
             <e p="Scripts" t="Include">
@@ -76,7 +71,11 @@
             <e p="Memory.cs" t="Include" />
           </e>
           <e p="NPC" t="Include">
+            <e p="Boss_health.cs" t="Include" />
+            <e p="Boss_weapon.cs" t="Include" />
             <e p="BossLife.cs" t="Include" />
+            <e p="Crow_boss.cs" t="Include" />
+            <e p="Crow_boss_walk.cs" t="Include" />
             <e p="EnemyLife.cs" t="Include" />
             <e p="Interactable.cs" t="Include" />
             <e p="NPC.cs" t="Include" />
