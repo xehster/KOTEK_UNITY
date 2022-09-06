@@ -2,50 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc55d359-e0f3-4f29-a3ca-8f1e4c3f4754" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.KOTEK/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KOTEK/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KOTEK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KOTEK/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/crow_enemy.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/crow_enemy.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/crow_enraged_walking.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/crow_enraged_walking.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/FlyingCrying.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/FlyingCrying.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/KOTEK.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/KOTEK.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/crow_enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/crow_enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/AlleyCatLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AlleyCatLevel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/Item.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemAssets.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemAssets.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/UI_Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/UI_Inventory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC/BossLife.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPC/BossLife.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC/Crow_boss_walk.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPC/Crow_boss_walk.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC/EnemyLife.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPC/EnemyLife.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC/NPC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPC/NPC.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-1 2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-1 2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-10.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-10.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-11.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-11.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-12.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-12.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-13.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-13.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-14.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-14.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-15.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-15.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-16.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-16.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-17.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-17.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-18.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-18.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-19.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-19.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-2 2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-2 2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-20.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-20.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-21.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-21.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-22.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-22.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-23.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-23.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-24.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-24.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-25.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-25.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-26.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-26.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-27.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-27.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-28.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-28.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-3 2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-3 2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-4 2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-4 2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-5 2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-5 2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-6 2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-6 2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-7.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-7.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-8.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-8.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-9.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Иллюстрация_без_названия-9.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity.meta" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -244,7 +202,7 @@
       <workItem from="1662210422087" duration="11163000" />
       <workItem from="1662367892977" duration="3145000" />
       <workItem from="1662414349948" duration="2230000" />
-      <workItem from="1662446762028" duration="11363000" />
+      <workItem from="1662446762028" duration="11647000" />
     </task>
     <servers />
   </component>
