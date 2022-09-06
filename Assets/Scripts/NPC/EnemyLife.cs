@@ -6,41 +6,20 @@ using Random = System.Random;
 
 public class EnemyLife : MonoBehaviour
 {
-    [SerializeField] private int enemyHealthPoints;
+    [SerializeField] public int enemyHealthPoints;
+    [SerializeField] private Collider2D enemyCollider;
     [SerializeField] private GameObject drop;
-    [SerializeField] private GameObject blood;
-    [SerializeField] private GameObject explosion;
-    [SerializeField] private Collider2D collider;
     private Random rnd = new Random();
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
+    
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.gameObject.CompareTag("Projectile"))
         {
-            if (blood != null)
-            {
-                var bloodObject = Instantiate(blood, transform.position, quaternion.identity);
-                bloodObject.transform.parent = transform;
-                bloodObject.transform.LookAt(collider.gameObject.transform);
-                StartCoroutine(DestroyBlood(bloodObject));  
-            }
             DecreaseHealth();
         }
     }
-
-    IEnumerator DestroyBlood(GameObject destroyObject)
-    {
-        yield return new WaitForSeconds(1f);
-        Destroy(destroyObject);
-    }
-
-    public void DecreaseHealth()
+    public virtual void DecreaseHealth()
     {
         enemyHealthPoints = enemyHealthPoints - 1;
         if (enemyHealthPoints < 1)
@@ -50,20 +29,14 @@ public class EnemyLife : MonoBehaviour
         }
     }
 
-    private void Die()
+    public virtual void Die()
     {
-        if (explosion != null)
-        {
-            var bloodObject = Instantiate(explosion, transform.position, quaternion.identity);
-        }
-
         var animator = GetComponent<Animator>();
         animator.SetBool("isDead", true);
 
-        collider.enabled = false;
+        enemyCollider.enabled = false;
         GetComponent<WaypointFollower>().enabled = false;
         StartCoroutine(DissapearBody());
-
     }
 
     IEnumerator DissapearBody()
@@ -80,6 +53,5 @@ public class EnemyLife : MonoBehaviour
         {
             Instantiate(drop, transform.position, drop.transform.rotation);
         }
-
     }
 }

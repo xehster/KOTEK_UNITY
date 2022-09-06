@@ -9,7 +9,7 @@ public class Crow_boss_walk : StateMachineBehaviour
     private Crow_boss boss;
 
     public float speed = 2.5f;
-    public float attackRange = 0.5f;
+    public float attackRange = 2f;
     
     //OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
