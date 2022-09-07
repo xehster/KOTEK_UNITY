@@ -41,7 +41,7 @@ public class EnemyLife : MonoBehaviour
 
     public virtual void Die()
     {
-        animator.SetBool("IsDead", true);
+        animator.SetBool("isDead", true);
         enemyCollider.enabled = false;
         if (waypointFollower != null)
         {
