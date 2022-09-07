@@ -23,6 +23,6 @@ public class Finish : Interactable
 
     private void EndLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
