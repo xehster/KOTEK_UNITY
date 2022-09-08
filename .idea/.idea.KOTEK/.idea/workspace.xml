@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc55d359-e0f3-4f29-a3ca-8f1e4c3f4754" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.KOTEK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KOTEK/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC/EnemyLife.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPC/EnemyLife.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +44,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC/EnemyLife.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/HideAndShowInventory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Items/ItemSlot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AlleyCatScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/UI_Inventory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/ItemWorld.cs" root0="FORCE_HIGHLIGHTING" />
@@ -96,7 +97,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObject/MemoriesScriptableObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/Memory.cs" />
         <option value="$PROJECT_DIR$/Assets/DialogueEditor/Assets/Scripts/UI/ConversationManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Finish.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AlleyCatScene.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BackFromAlleyCatScene.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerLife.cs" />
@@ -117,6 +117,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemAssets.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/UI_Inventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NPC/EnemyLife.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Finish.cs" />
       </list>
     </option>
   </component>
@@ -204,6 +205,8 @@
       <workItem from="1662414349948" duration="2230000" />
       <workItem from="1662446762028" duration="11647000" />
       <workItem from="1662485368631" duration="606000" />
+      <workItem from="1662567187094" duration="621000" />
+      <workItem from="1662633419903" duration="627000" />
     </task>
     <servers />
   </component>
