@@ -1,12 +1,12 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+using NaughtyAttributes;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Finish : Interactable
+public class ChangeLevel : Interactable
 
 {
+    [Scene]
+    public string newLevel; // scene name
     private AudioSource finishSound;
     private bool levelCompleted = false;
     private void Start()
@@ -17,12 +17,13 @@ public class Finish : Interactable
     public override void Interact()
     {
         finishSound.Play();
-            levelCompleted = true;
-            Invoke("EndLevel", 1f);
+        levelCompleted = true;
+        Invoke("EndLevel", 1f);
     }
 
     private void EndLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        MemoryManager.Instance.SavePlayer();
+        SceneManager.LoadScene(newLevel);
     }
 }

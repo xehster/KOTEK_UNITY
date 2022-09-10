@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask jumpableGround;
     [SerializeField] private GameObject interactIcon;
     [SerializeField] private Weapon weapon;
-    [SerializeField] private UI_Inventory uiInventory;
+    public UI_Inventory uiInventory;
     [SerializeField] private HideAndShowInventory hideAndShowInventory;
     private MovementState state;
     private bool isAnimationStarting;

@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class UI_Inventory : MonoBehaviour
 {
-   private Inventory uiInventory;
+   public Inventory uiInventory;
    [SerializeField] private Transform itemSlotContainer;
    [SerializeField] private ItemSlot itemSlotTemplate;
 
@@ -26,7 +26,7 @@ public class UI_Inventory : MonoBehaviour
       }
    }
 
-   private void RefreshInventoryItems()
+   public void RefreshInventoryItems()
    {
       DestroyAll();
       foreach (Item item in uiInventory.GetItemList())

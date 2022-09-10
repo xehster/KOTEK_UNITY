@@ -60,7 +60,7 @@ public class EnemyLife : MonoBehaviour
     {
         int dropChance = rnd.Next(1, 101);
         Debug.Log(dropChance);
-        if (dropChance > 50)
+        if (dropChance > 50 && drop != null)
         {
             Instantiate(drop, transform.position, drop.transform.rotation);
         }

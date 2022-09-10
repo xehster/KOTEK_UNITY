@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using DialogueEditor;
 using Models;
+using Newtonsoft.Json;
 using UnityEngine;
 
 public class MemoryManager : MonoBehaviour
@@ -14,7 +15,7 @@ public class MemoryManager : MonoBehaviour
     public int KittenSouls;
     [SerializeField] private MemoriesScriptableObject memories;
 
-    private void Awake()
+    private void Start()
     {
         Instance = this;
         InitSavedMemories();
@@ -48,12 +49,39 @@ public class MemoryManager : MonoBehaviour
         {
             PlayerManager.Instance.itemCollector.SetKittenSouls(KittenSouls);
         }
+        LoadInventory();
     }
 
     public void SavePlayer()
     {
         PlayerPrefs.SetInt("Health", PlayerManager.Instance.playerLife.kotekHealthPoints);
         PlayerPrefs.SetInt("KittenSouls", PlayerManager.Instance.itemCollector.kittensouls);
+        SaveInventory();
+        PlayerPrefs.Save();
+    }
+
+
+    private void SaveInventory()
+    {
+        List<Item> itemList = PlayerManager.Instance.playerMovement.uiInventory.uiInventory.GetItemList();
+        var json = JsonConvert.SerializeObject(itemList);
+        PlayerPrefs.SetString("Inventory", json);
+        Debug.Log(json);
+    }
+
+    public void LoadInventory()
+    {
+        var inventoryJson = PlayerPrefs.GetString("Inventory", String.Empty);
+        if (inventoryJson != String.Empty)
+        {
+            List<Item> jsonList = JsonConvert.DeserializeObject<List<Item>>(inventoryJson);
+            foreach (var jsonObject in jsonList)
+            {
+                Debug.Log($"{jsonObject.itemType} and {jsonObject.amount}");
+                PlayerManager.Instance.playerMovement.uiInventory.uiInventory.AddItem(jsonObject);
+            }
+            PlayerManager.Instance.playerMovement.uiInventory.RefreshInventoryItems();
+        }
     }
 
     private void SetToConversationCachedMemories()

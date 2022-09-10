@@ -6,12 +6,12 @@ public class Item {
 
     public enum ItemType
     {
-        Catfood,
-        Pie,
-        EnergyDrink,
-        Tea,
-        Mouse,
-        Knife,
+        Catfood = 0,
+        Pie = 1,
+        EnergyDrink = 2,
+        Tea = 3,
+        Mouse = 4,
+        Knife = 5
     }
 
     public ItemType itemType;

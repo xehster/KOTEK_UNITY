@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6210278031832853965}
   - component: {fileID: 6210278031832853966}
-  - component: {fileID: 6210278031832853967}
   - component: {fileID: 6210278031832853964}
   - component: {fileID: 6210278031832853963}
   - component: {fileID: 3652079202294403641}
@@ -20,7 +19,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6210278031832853965
 Transform:
   m_ObjectHideFlags: 0
@@ -74,8 +73,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -919934669
-  m_SortingLayer: 5
+  m_SortingLayerID: 1409077125
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1bfa417a3e0402b4f8e564c85c71695e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -88,22 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &6210278031832853967
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6210278031832853952}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.0073928833, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.060256958
 --- !u!114 &6210278031832853964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,6 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e525c929a3ff70647bca7c966030e03d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  newLevel: StartScreen
 --- !u!82 &6210278031832853963
 AudioSource:
   m_ObjectHideFlags: 0
@@ -222,7 +206,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}

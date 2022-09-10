@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 15.099976, y: 15.307922}
+  m_AnchoredPosition: {x: 15.099976, y: 15.307861}
   m_SizeDelta: {x: 30, y: 30.6158}
   m_Pivot: {x: 0.5000001, y: 0.5}
 --- !u!114 &127550939
@@ -226,7 +226,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 787f99305843f5749a7a2cee7c033dba, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 5c10dab10156fb249804fc11aacbb3d1, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.15
   m_Pitch: 1
@@ -483,7 +483,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3652079202294403641, guid: 7a9ae7d8bfe9bbf4b9d86e3182a0cf93, type: 3}
       propertyPath: m_Size.x
-      value: 1.0361071
+      value: 0.5922939
       objectReference: {fileID: 0}
     - target: {fileID: 3652079202294403641, guid: 7a9ae7d8bfe9bbf4b9d86e3182a0cf93, type: 3}
       propertyPath: m_Size.y
@@ -491,7 +491,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3652079202294403641, guid: 7a9ae7d8bfe9bbf4b9d86e3182a0cf93, type: 3}
       propertyPath: m_Offset.x
-      value: -0.013512403
+      value: -0.032808572
       objectReference: {fileID: 0}
     - target: {fileID: 3652079202294403641, guid: 7a9ae7d8bfe9bbf4b9d86e3182a0cf93, type: 3}
       propertyPath: m_Offset.y
@@ -504,6 +504,14 @@ PrefabInstance:
     - target: {fileID: 6210278031832853952, guid: 7a9ae7d8bfe9bbf4b9d86e3182a0cf93, type: 3}
       propertyPath: m_Name
       value: Finish
+      objectReference: {fileID: 0}
+    - target: {fileID: 6210278031832853952, guid: 7a9ae7d8bfe9bbf4b9d86e3182a0cf93, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6210278031832853964, guid: 7a9ae7d8bfe9bbf4b9d86e3182a0cf93, type: 3}
+      propertyPath: newLevel
+      value: Level1Boss
       objectReference: {fileID: 0}
     - target: {fileID: 6210278031832853965, guid: 7a9ae7d8bfe9bbf4b9d86e3182a0cf93, type: 3}
       propertyPath: m_RootOrder
@@ -1007,11 +1015,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 394198312435651369, guid: 52b5c332d123d4b47b80f7b50d69abab, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.9
+      value: -11.750048
       objectReference: {fileID: 0}
     - target: {fileID: 394198312435651369, guid: 52b5c332d123d4b47b80f7b50d69abab, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.309296
+      value: -8.500034
       objectReference: {fileID: 0}
     - target: {fileID: 394198312435651369, guid: 52b5c332d123d4b47b80f7b50d69abab, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1868,7 +1876,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 107.117065, y: 15.307922}
+  m_AnchoredPosition: {x: 107.117065, y: 15.307861}
   m_SizeDelta: {x: 30, y: 30.6158}
   m_Pivot: {x: 0.5000001, y: 0.5}
 --- !u!114 &1154705537
@@ -2219,7 +2227,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 17, y: -17.2}
+  m_AnchoredPosition: {x: 17, y: -17.199951}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1261166652
@@ -2800,7 +2808,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 76.15857, y: 15.307922}
+  m_AnchoredPosition: {x: 76.15857, y: 15.307861}
   m_SizeDelta: {x: 30, y: 30.6158}
   m_Pivot: {x: 0.5000001, y: 0.5}
 --- !u!114 &1781439799
@@ -3119,7 +3127,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 137.83032, y: 15.307922}
+  m_AnchoredPosition: {x: 137.83032, y: 15.307861}
   m_SizeDelta: {x: 30, y: 30.6158}
   m_Pivot: {x: 0.5000001, y: 0.5}
 --- !u!114 &1959165860
