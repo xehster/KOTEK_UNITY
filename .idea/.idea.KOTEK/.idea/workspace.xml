@@ -4,17 +4,12 @@
     <list default="true" id="dc55d359-e0f3-4f29-a3ca-8f1e4c3f4754" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KOTEK/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KOTEK/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KOTEK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KOTEK/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/KittenSoul.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/KittenSoul.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1BeforeBoss.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1BeforeBoss.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Finish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChangeLevel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Finish.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChangeLevel.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/Item.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/UI_Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/UI_Inventory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MemoryManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MemoryManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC/BossLife.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPC/BossLife.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1Boss.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1Boss.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartScreen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartScreen.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC/NPC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPC/NPC.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +36,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaypointFollower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sounds/PlayerSounds.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC/BossLife.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Level1Boss.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/HideAndShowInventory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AlleyCatScene.cs" root0="FORCE_HIGHLIGHTING" />
@@ -66,6 +62,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/DialogueEditor/Assets/Scripts/UI/ConversationManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StickyPlatform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/ItemCollector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/LostControlOnCollider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StartMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/ItemAssets.cs" root0="FORCE_HIGHLIGHTING" />
@@ -79,8 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCombat.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Weapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyLife.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Camera/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NPC.cs" />
@@ -119,17 +114,19 @@
         <option value="$PROJECT_DIR$/Assets/Boss_weapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Crow_boss_enrage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NPC/Crow_boss_walk.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NPC/NPC.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemAssets.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NPC/EnemyLife.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Finish.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChangeLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/UI_Inventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MemoryManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/LocalMoveRotateTween.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NPC/BossLife.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPC/EnemyLife.cs" />
+        <option value="$PROJECT_DIR$/Assets/LostControlOnCollider.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/LostControlOnCollider.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPC/NPC.cs" />
       </list>
     </option>
   </component>
@@ -219,7 +216,10 @@
       <workItem from="1662485368631" duration="606000" />
       <workItem from="1662567187094" duration="621000" />
       <workItem from="1662633419903" duration="627000" />
-      <workItem from="1662797326539" duration="3770000" />
+      <workItem from="1662797326539" duration="4542000" />
+      <workItem from="1663607029173" duration="3563000" />
+      <workItem from="1664211931210" duration="617000" />
+      <workItem from="1664446020472" duration="1082000" />
     </task>
     <servers />
   </component>

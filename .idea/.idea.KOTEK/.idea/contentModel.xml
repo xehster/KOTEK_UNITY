@@ -247,6 +247,7 @@
           <e p="Player" t="Include">
             <e p="Bullet.cs" t="Include" />
             <e p="HealthCheck.cs" t="Include" />
+            <e p="LostControlOnCollider.cs" t="Include" />
             <e p="PlayerLife.cs" t="Include" />
             <e p="PlayerManager.cs" t="Include" />
             <e p="PlayerMovement.cs" t="Include" />

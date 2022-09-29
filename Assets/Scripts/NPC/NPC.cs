@@ -14,6 +14,7 @@ public class NPC : MonoBehaviour
     private Transform playerTransform;
     [SerializeField] private string savedData;
     private float defaultFov;
+    private bool isConversationStarted;
 
     private void Awake()
     {
@@ -43,13 +44,14 @@ public class NPC : MonoBehaviour
         {
             SetCamera();
         }
-        if (Input.GetKeyDown(KeyCode.E) && playerInRange)
+        if ((isConversationStarted == false) && playerInRange)
         {
             StartConverstion();
+            isConversationStarted = true;
         }
     }
 
-    private void StartConverstion()
+    public void StartConverstion()
     { 
         ConversationManager.Instance.StartConversation(Conversation);
         ConversationManager.OnConversationEnded += OnConversationEnded;
@@ -94,6 +96,7 @@ public class NPC : MonoBehaviour
             FollowPlayer();
             playerInRange = false;
             ConversationManager.Instance.EndConversation();
+            isConversationStarted = false;
         }
     }
     

@@ -33,7 +33,8 @@ public class PlayerMovement : MonoBehaviour
     private Inventory inventory;
     private Collision2D currentCollision;
     private bool jumpOffCoroutineIsRunning;
-    private bool facingRight = true;
+    private bool facingRight = true; 
+    private bool canMove = true;
     public float speedMultiplier = 1;
 
 
@@ -52,6 +53,7 @@ public class PlayerMovement : MonoBehaviour
     
     void Update()
     {
+        
         Movement();
         
         if (Input.GetButtonDown("Jump") && IsOnGround())
@@ -79,32 +81,40 @@ public class PlayerMovement : MonoBehaviour
 
     private void Movement()
     {
-        dirX = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
-        if (IsOnGround() && rb.velocity.magnitude > 0)
+        if (canMove)
         {
-            anim.SetFloat("moveSpeed", rb.velocity.magnitude);
-            PlayerManager.Instance.PlayerSounds.Walking(true, rb.velocity.magnitude * speedMultiplier);
-        }
-        else
-        {
-            PlayerManager.Instance.PlayerSounds.Walking(false, rb.velocity.magnitude * speedMultiplier);
+            dirX = Input.GetAxis("Horizontal");
+            rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
+            if (IsOnGround() && rb.velocity.magnitude > 0)
+            {
+                anim.SetFloat("moveSpeed", rb.velocity.magnitude);
+                PlayerManager.Instance.PlayerSounds.Walking(true, rb.velocity.magnitude * speedMultiplier);
+            }
+            else
+            {
+                PlayerManager.Instance.PlayerSounds.Walking(false, rb.velocity.magnitude * speedMultiplier);
+            }
         }
     }
 
     private void Jump()
     {
-        PlayerManager.Instance.PlayerSounds.Jump();
-        rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+        if (canMove)
+        {
+            PlayerManager.Instance.PlayerSounds.Jump();
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+        }
     }
 
     private void JumpOff()
     {
-        if (currentCollision == null) return;
-        if (!jumpOffCoroutineIsRunning && currentCollision.gameObject.layer != nonJumpOffLayer)
+        if (canMove)
         {
-            Debug.Log("Jump Off");
-            StartCoroutine(JumpOffWithTimer(currentCollision.collider));
+            if (currentCollision == null) return;
+            if (!jumpOffCoroutineIsRunning && currentCollision.gameObject.layer != nonJumpOffLayer)
+            {
+                StartCoroutine(JumpOffWithTimer(currentCollision.collider));
+            }
         }
     }
 
@@ -203,36 +213,46 @@ public class PlayerMovement : MonoBehaviour
     {
         if (PlayerManager.Instance.itemCollector.kittensouls > 0)
         {
-            SetMovementState(MovementState.shooting);
-            anim.Play("Player_Shoot");
-            anim.SetBool("isAttack", true );
-            weapon.Shoot();
-            PlayerManager.Instance.itemCollector.KittenSoulDecrease();
-            isAnimationStarting = true;
-            timer = shootTime;
+            if (canMove)
+            {
+                SetMovementState(MovementState.shooting);
+                anim.Play("Player_Shoot");
+                anim.SetBool("isAttack", true );
+                weapon.Shoot();
+                PlayerManager.Instance.itemCollector.KittenSoulDecrease();
+                isAnimationStarting = true;
+                timer = shootTime;
+            }
 
         }
     }
 
     private void PlayerMelee()
     {
-        SetMovementState(MovementState.attack);
-        PlayerManager.Instance.PlayerSounds.Melee();
-        isAnimationStarting = true;
-        timer = meleeTime;
+        if (canMove)
+        {
+            SetMovementState(MovementState.attack);
+            PlayerManager.Instance.PlayerSounds.Melee();
+            isAnimationStarting = true;
+            timer = meleeTime;
+        }
+
     }
     
     private void PlayerAttack()
     {
-        //anim
-        PlayerMelee();
-        //detect enemies in range
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-        //damage
-        foreach(Collider2D enemy in hitEnemies)
+        if (canMove)
         {
-            Debug.Log(enemy.name);
-            enemy.GetComponent<EnemyLife>().DecreaseHealth();
+            //anim
+            PlayerMelee();
+            //detect enemies in range
+            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+            //damage
+            foreach(Collider2D enemy in hitEnemies)
+            {
+                Debug.Log(enemy.name);
+                enemy.GetComponent<EnemyLife>().DecreaseHealth();
+            } 
         }
     }
 
