@@ -127,7 +127,7 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         Physics2D.IgnoreCollision(collider, coll, false);
         currentCollision = null;
-        jumpOffCoroutineIsRunning = false;
+        jumpOffCoroutineIsRunning = false; 
     }
     
     private void Awake()
@@ -205,6 +205,11 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D other)
+    {
+        currentCollision = other;
+    }
+
+    private void OnCollisionStay2D(Collision2D other)
     {
         currentCollision = other;
     }
